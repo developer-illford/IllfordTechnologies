@@ -7,46 +7,44 @@ import Head from "next/head";
 
 const About = () => {
   return (
+
     // about section
     <div className="about-container">
+      <Head>
+        {/* Primary Meta Tags */}
+        <title>About Illford Technologies | Web development company in Kochi and Web designing company in Kochi</title>
+        <meta name="title" content="About Illford Technologies | Web development company in Kochi and Web designing company in Kochi" />
+        <meta name="description" content="Discover Illford Technologies, a top Website development company in Kochi and Website designing company in Kochi. For an excellent online experience, discover our proficiency in creative design, tactical digital marketing, and dependable server solutions." />
 
-<Head>
+        <meta name="keywords" content="Website development experts in Kochi, Website designing experts in Kochi, Website design services Kochi, Website development services Kochi, Web design services Kerala, Top website development company in Kochi, Digital marketing services in Kochi, Web development experts in Kerala, Website development company in Kochi, App development company in Kerala" />
 
-{/* Primary Meta Tags */}
-    <title>About Illford Technologies | Web development company in Kochi and Web designing company in Kochi</title>
-    <meta name="title" content="About Illford Technologies | Web development company in Kochi and Web designing company in Kochi" />
-    <meta name="description" content="Discover Illford Technologies, a top Website development company in Kochi and Website designing company in Kochi. For an excellent online experience, discover our proficiency in creative design, tactical digital marketing, and dependable server solutions.." />
-
-    <meta name="keywords" content="Website development experts in Kochi, Website designing experts in Kochi, Website design services Kochi, Website development services Kochi, Web design services Kerala, Top website development company in Kochi, Digital marketing services in Kochi, Web development experts in Kerala, Website development company in Kochi, App development company in Kerala">
-
-    <meta name="content-language" content="english" />
-    <meta name="rating" content="General" />
-    <meta name="robots" content="follow,index" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
-    <meta name="revisit-after" content="15 days">
-    <meta name="author" content="Illford Technologies">
-    <link rel="canonical" href="https://illfordtechnologies.in/about" />
-    <meta name="DC.title" content="About Illford Technologies | Web development company in Kochi and Web designing company in Kochi" />
-    <meta name="geo.region" content="IN-KL" />
-    <meta name="geo.placename" content="Kochi" />
-    <meta name="geo.position" content="9.967428;76.245444" />
-    <meta name="ICBM" content="9.967428, 76.245444" />
-    
+        <meta name="content-language" content="english" />
+        <meta name="rating" content="General" />
+        <meta name="robots" content="follow,index" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="15 days" />
+        <meta name="author" content="Illford Technologies" />
+        <link rel="canonical" href="https://illfordtechnologies.in/about" />
+        <meta name="DC.title" content="About Illford Technologies | Web development company in Kochi and Web designing company in Kochi" />
+        <meta name="geo.region" content="IN-KL" />
+        <meta name="geo.placename" content="Kochi" />
+        <meta name="geo.position" content="9.967428;76.245444" />
+        <meta name="ICBM" content="9.967428, 76.245444" />
 
         {/* Open Graph / Facebook */}
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://illfordtechnologies.in/about" />
-<meta property="og:title" content="About Illford Technologies | Web development company in Kochi and Web designing company in Kochi" />
-<meta property="og:description" content="Discover Illford Technologies, a top Website development company in Kochi and Website designing company in Kochi. For an excellent online experience, discover our proficiency in creative design, tactical digital marketing, and dependable server solutions.." />
-<meta property="og:image" content="" />
- {/* Twitter */}
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://illfordtechnologies.in/about" />
-<meta property="twitter:title" content="About Illford Technologies | Web development company in Kochi and Web designing company in Kochi" />
-<meta property="twitter:description" content="Discover Illford Technologies, a top Website development company in Kochi and Website designing company in Kochi. For an excellent online experience, discover our proficiency in creative design, tactical digital marketing, and dependable server solutions.." />
-<meta property="twitter:image" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://illfordtechnologies.in/about" />
+        <meta property="og:title" content="About Illford Technologies | Web development company in Kochi and Web designing company in Kochi" />
+        <meta property="og:description" content="Discover Illford Technologies, a top Website development company in Kochi and Website designing company in Kochi. For an excellent online experience, discover our proficiency in creative design, tactical digital marketing, and dependable server solutions." />
+        <meta property="og:image" content="" />
 
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://illfordtechnologies.in/about" />
+        <meta property="twitter:title" content="About Illford Technologies | Web development company in Kochi and Web designing company in Kochi" />
+        <meta property="twitter:description" content="Discover Illford Technologies, a top Website development company in Kochi and Website designing company in Kochi. For an excellent online experience, discover our proficiency in creative design, tactical digital marketing, and dependable server solutions." />
+        <meta property="twitter:image" content="" />
       </Head>
 
       <div className="about-image-div">
