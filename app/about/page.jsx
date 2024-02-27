@@ -2,7 +2,7 @@
 import Image from "next/image";
 import "../about/about.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Footer from "../Components/Footer";
+import Footer from "./Components/Footer";
 import Head from "next/head";
 
 const About = () => {
